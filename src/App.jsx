@@ -1,6 +1,6 @@
 import './App.css';
 import { Signin } from './Routes/Signin';
-import { Home } from './Routes/Home';
+import { Home } from './Home/Home';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { AuthContext } from './Context/AuthContext';
 import { Protected } from './Routes/Protected';
