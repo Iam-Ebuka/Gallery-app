@@ -4,7 +4,7 @@ export const Picx = [
         "src":require("./Photos/adrian-pereira-cIH81koe-ao-unsplash.jpg"),
         "alt": "a rabbit looking",
         "name": "rabbit",
-        "class": ''
+        "class": 't-stretch'
     },
     {
         "id": 2,
@@ -25,14 +25,14 @@ export const Picx = [
         "src":require('./Photos/lewis-roberts-2fJ6CX82RZ4-unsplash.jpg'),
         "alt":'a mother monkey and child',
         "name": 'monkey',
-        'class': ''
+        'class': 't-stretch'
     },
     {
         "id":5,
         "src":require('./Photos/nathan-cima-OG3ToPSp2dg-unsplash.jpg'),
         "alt":'reptile',
         "name": 'comono dragon',
-        'class': ''
+        'class': 't-stretch'
     },
     {
         "id":6,
@@ -53,7 +53,7 @@ export const Picx = [
         "src":require('./Photos/sarah-sheedy-_UjVqgTnKI4-unsplash.jpg'),
         "alt":'a humming bird',
         "name": 'bird',
-        'class': ''
+        'class': 't-stretch'
     },
     {
         "id":9,
@@ -67,21 +67,21 @@ export const Picx = [
         "src":require('./Photos/sarah-sheedy-HM86zK5-ZCA-unsplash.jpg'),
         "alt":'a yunning dog',
         "name": 'dog',
-        'class': ''
+        'class': 't-stretch'
     },
     {
         "id":11,
         "src":require('./Photos/stone-wang-Inui7GloB_Y-unsplash.jpg'),
         "alt":'a big cat',
         "name": 'tiger',
-        'class': ''
+        'class': 't-stretch'
     },
     {
         "id":12,
         "src":require('./Photos/thea-w8kevFdCcTs-unsplash.jpg'),
         "alt":'a cow',
         "name": 'cow',
-        'class': ''
+        'class': 't-stretch'
     },
     {
         "id":13,
@@ -95,7 +95,7 @@ export const Picx = [
         "src":require('./Photos/zdenek-machacek-hztya2tQqB8-unsplash.jpg'),
         "alt":'a bear',
         "name": 'bear',
-        'class': ''
+        'class': 't-stretch'
     },
     {
         "id":15,

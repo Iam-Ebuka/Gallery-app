@@ -29,22 +29,23 @@ const SortablePicture = ({pic,index}) => {
         {...attributes} 
         {...listeners} 
         className={
-        index === 0? "": 
+        index === 0? "t-stretch": 
         index===1? "v-stretch":
         index===2? 'h-stretch':
-        index===3? '':
-        index===4? '':
+        index===3? 't-stretch':
+        index===4? 't-stretch':
         index===5? 'v-stretch':
         index===6? 'big-stretch':
-        index===7? '': 
+        index===7? 't-stretch': 
         index===8? 'h-stretch':
-        index===9? '':
-        index===10? '':
-        index===11?'':
+        index===9? 't-stretch':
+        index===10? 't-stretch':
+        index===11?'t-stretch':
         index===12?'v-stretch':
-        index===13? '':
-        index===14?'big-stretch': ''}>
-            <img src={pic.src} alt={pic.alt}/>
+        index===13? 't-stretch':
+        index===14?'big-stretch': ''} >
+            <img src={pic.src} alt={pic.alt} loading="lazy"/>
+            <div className="hover"><p>{pic.name}</p></div>
         </div>
     )
 }

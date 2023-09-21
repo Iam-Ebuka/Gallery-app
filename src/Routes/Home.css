@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+background-color: black;
+}
 header {
     display: flex;
     flex-direction: row;
@@ -45,7 +48,11 @@ main {
     background-color: black;
     padding: 10px;
 }
-
+.hover {
+    color:black;
+    font-size: 30px;
+    margin-top: -50px;
+}
 .grid-wrapper {
     padding: 5px;
     max-width: 1100px;
@@ -56,15 +63,23 @@ main {
     grid-auto-rows: 250px;
     grid-auto-flow: dense;
 }
+
+.t-stretch {
+    background-color: gray;
+}
+
 .v-stretch {
     grid-row: span 2;
+    background-color: gray;
 }   
 .h-stretch {
     grid-column: span 2;
+    background-color: gray;
 }   
 .big-stretch {
     grid-row: span 2;
     grid-column: span 2;
+    background-color: gray;
 }   
 .grid-wrapper div img {
     width: 100%;
