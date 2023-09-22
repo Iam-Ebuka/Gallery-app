@@ -94,7 +94,7 @@ export function Home(){
                         <DndContext collisionDetection={closestCenter} onDragEnd={onDragEnd}>
                             <SortableContext items={Picx} strategy={verticalListSortingStrategy}>
                         {pics.filter((pic) => 
-                        pic.name.toLowerCase().includes(query)
+                        pic.name.toLowerCase().includes(query.toLowerCase())
                         ).map((pic, index) => (
                             <SortablePicture key={pic.id} pic={pic} index={index}/>
                         ))}
